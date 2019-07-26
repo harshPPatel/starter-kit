@@ -1,0 +1,23 @@
+[x] inline svg import
+[x] babel
+[x] more config on dev server
+      https://www.youtube.com/watch?v=EpCz8bwtx5I
+[x] multiple html files (use handlebarsto some how use that template page as layout)
+[x] compress images in production
+[x] autoprefixer css in production
+[x] learn about post css
+[x] fonts
+[x] check image urls links inside css (scss)
+[x] videos
+[x] add browser compatibility js inside starter kit and add them in vendors!
+[x] eslint
+[x] valid all files for eslint
+[-] CANCEL prettier setup 
+[x] uninstall unused one
+[ ] clean all files and add lines which make sense!😂
+[x] add scss folder structure
+[-] add pug. Get inspiration from issue-tracker
+[x] check dependencies in issue tracker
+[x] add jsDoc
+[x] add @bable/polyfill to index.js (BEFORE Importing any other files.) Also save this dependencies with --save flag. not --save-dev!
+[x] Check issue tracker for more eslintrc rules and also check changes in webpack config
