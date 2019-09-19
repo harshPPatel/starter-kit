@@ -11,3 +11,6 @@ build/*
 
 # Webpack configuration files
 webpack*
+
+# HTML Files
+*.html

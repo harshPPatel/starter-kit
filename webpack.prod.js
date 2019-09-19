@@ -82,6 +82,19 @@ module.exports = merge(common, {
         ],
       },
 
+      // CSS Files Module configuration
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name]-[hash].[ext]',
+            outputPath: 'assets/css',
+          },
+        },
+      },
+
       // Pre JavaScript module configuration. Validates the code with eslint config
       {
         enforce: 'pre',

@@ -53,6 +53,19 @@ module.exports = merge(common, {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
 
+      // CSS Files Module configuration
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'assets/css',
+          },
+        },
+      },
+
       // Images Module Configuration
       {
         test: /\.(svg|png|gif|jpg|jpeg)$/i,
