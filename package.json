@@ -64,18 +64,5 @@
     "selectivizr": "^1.0.3",
     "stylelint": "^11.0.0",
     "webpack-merge": "^4.2.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.html": "htmlhint",
-    "*.{css,scss}": "stylelint",
-    "*.js": [
-      "eslint",
-      "git add"
-    ]
   }
 }

@@ -2,7 +2,7 @@
 import './js/app';
 
 // Importing main.scss as an entry point for SCSS environmnet
-import './scss/main.scss';
+import './scss/app.scss';
 
 // Import Other assets like vidoes here...
 
