@@ -48,8 +48,8 @@
       "eslint --fix",
       "git add"
     ],
-    "*.json": [
-      "stylelint --fix",
+    "*.scss": [
+      "stylelint --i .stylelintignore",
       "git add"
     ],
     "*.html": [
